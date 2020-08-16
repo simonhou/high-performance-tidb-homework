@@ -316,9 +316,9 @@ func (s *session) NewTxn(ctx context.Context) error {
 
 tidb服务重新部署后，手动执行个BEGIN命令（先关闭auto commit），查看后台日志，发现hello transaction成功输出。
 
-![image-20200816002801194](sql.png)
+![image-20200816002801194](./sql.png)
 
-![image-20200816003056790](hello.png)
+![image-20200816003056790](./hello.png)
 
 
 
